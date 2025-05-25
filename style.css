@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.fejlec {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+}
+
+.menu {
+    font-size: 22px;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tartalom {
+  flex: 1;
+}
+
+.sajat-kep {
+  max-width: 40%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.kozepre-igazitott {
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #f50606;
+  text-align: center;
+  padding: 10px;
+}
+
+.navbar-nav {
+  vertical-align: center;
+}
+
+.rolam {
+  font-size: 20px;
+  text-align: justify;
+  padding-top: 20px;
+  padding-top: none;
+  padding-bottom: none;
+}
+
+.iskolaim {
+  padding: 10px;
+}
