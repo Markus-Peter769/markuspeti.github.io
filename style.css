@@ -1,16 +1,11 @@
 html, body {
   height: 100%;
   margin: 0;
-}
-
-.fejlec {
-  background-color: #f2f2f2;
-  text-align: center;
-  padding: 10px;
+  padding: 0;
 }
 
 .menu {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .container {
@@ -37,21 +32,25 @@ html, body {
 .footer {
   background-color: #f50606;
   text-align: center;
-  padding: 10px;
+  padding: 1rem;
 }
 
 .navbar-nav {
   vertical-align: center;
 }
 
-.rolam {
+.rolam, .fenytech, .hangtech, .iskolaim, .videotech, .robotika, .turoczy, .szikszi {
   font-size: 20px;
   text-align: justify;
-  padding-top: 20px;
+  padding: 10px;
   padding-top: none;
   padding-bottom: none;
 }
 
-.iskolaim {
-  padding: 10px;
+.robotika-kepek {
+  max-width: 800px;
+}
+
+.videotech-kepek {
+  max-width: 450px;
 }
